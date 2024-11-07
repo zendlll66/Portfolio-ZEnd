@@ -15,9 +15,9 @@ const CardHover1 = ({ text, text2, num }) => {
         <div
           className={`absolute  ${
             hoverState
-              ? "bg-red-400 w-full h-full top-0"
-              : "bg-red-400 w-[50px] h-[50px]"
-          } rounded-xl left-[50%] top-3 transform -translate-x-1/2 transition-all duration-1000`}
+              ? "bg-red-400 w-full h-full mt-0"
+              : "bg-red-400 w-[50px] h-[50px] mt-3"
+          } rounded-xl left-[50%]  transform -translate-x-1/2 transition-all duration-1000`}
         ></div>
         {num == 1 && (
           <AiOutlineAntDesign
