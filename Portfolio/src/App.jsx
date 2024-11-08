@@ -8,7 +8,7 @@ import Portfolio from "./page/Portfolio";
 import Contact from "./page/Contact";
 
 const App = () => {
-  const [ClickSidebar, setClickSidebar] = useState(true);
+  const [ClickSidebar, setClickSidebar] = useState(false);
   const MoveSidebar = () => {
     setClickSidebar(!ClickSidebar);
   };
@@ -19,7 +19,7 @@ const App = () => {
         <HamberBtn onClick={MoveSidebar} />
 
         <div className="absolute ">
-          <Sidebar ClickSidebar={ClickSidebar} />
+          <Sidebar ClickSidebar={ClickSidebar} setClickSidebar={setClickSidebar} />
         </div>
       </div>
       <div className="min-h-screen">

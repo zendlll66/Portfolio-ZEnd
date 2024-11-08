@@ -33,8 +33,8 @@ const Home = () => {
         <a className="opacity-[50%] hover:opacity-[100%] hover:scale-110 ease-in-out duration-200" href="https://www.instagram.com/om.zend/" >
         <IoLogoInstagram color='white' size={35} />
         </a>
-        <a className="opacity-[50%] hover:opacity-[100%] hover:scale-110 ease-in-out duration-200">
-        <FaSquareFacebook color='white' size={35}/>
+        <a className="opacity-[50%] hover:opacity-[100%] hover:scale-110 ease-in-out duration-200 "href="https://www.facebook.com/om.small.1/">
+        <FaSquareFacebook color='white' size={35} />
         </a>
         <a className="opacity-[50%] hover:opacity-[100%] hover:scale-110 ease-in-out duration-200">
         <FaPhoneSquare color='white' size={35}/>
