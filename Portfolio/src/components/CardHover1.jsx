@@ -46,7 +46,7 @@ const CardHover1 = ({ text, text2, num }) => {
         <div className="bottom-0 absolute w-full h-1/2">
           <p
             className={`text-center z-0 duration-500 transform transition-all ${
-              hoverState ? "text-white scale-110 animate-bounce animat-duration-200 " : "text-white scale-100"
+              hoverState ? "text-white scale-110  animat-duration-200 " : "text-white scale-100"
             }`}
           >
             {hoverState ? text2 : text}

@@ -9,7 +9,7 @@ const MenuButton = ({ onClick }) => {
   };
 
   return (
-    <div className="absolute right-0 m-10  z-50">
+    <div className="  z-50">
       <button onClick={handleClick} className="relative group">
         <div className="relative flex items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all bg-white ring-0 ring-gray-300 hover:ring-8 group-focus:ring-4 ring-opacity-30 duration-200 shadow-md">
           <div
